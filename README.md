@@ -58,4 +58,4 @@ Push your changes to your forked repository
 Open a pull request against the main repository
 
 License
-feather_extract is released under the MIT License.
+feather-extract is released under the MIT License. [License](https://github.com/hofmannj0n/feather_extract/blob/main/LICENSE)
