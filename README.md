@@ -4,10 +4,12 @@
 
 ## Installation
 
-To install `feather_extract`, run the following command:
-pip install feather_extract
+To install `feather-extract`, run the following command:
+`pip install feather-extract`
 
 ## Usage
+
+[tutorial/documentation](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
 ### Extracting Text from Documents
 
