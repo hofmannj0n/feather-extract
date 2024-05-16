@@ -2,14 +2,12 @@
 
 `feather-extract` is a Python package designed to extract handwritten data from PDF documents, format the extracted data, and save it as an Excel workbook. This package is particularly useful for businesses in the bar and restaurant industry that need to manage inventory.
 
+[full tutorial/documentation](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
 ## Installation
 
 To install `feather-extract`, run the following command:
 `pip install feather-extract`
-
-## Usage
-
-[tutorial/documentation](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
 ## Extracting Text from Documents
 
