@@ -39,10 +39,11 @@ This function creates a new Excel workbook, writes the headers and formatted dat
 
 ## Dependencies
 
-feather_extract relies on the following dependencies:
+`feather-extract` relies on the following dependencies:
 
-azure-ai-formrecognizer: For extracting text from PDF documents using the Azure Form Recognizer service.
-openpyxl: For creating and writing data to Excel workbooks.
+`azure-ai-formrecognizer` - For extracting text from PDF documents using the Azure Form Recognizer service.
+
+`openpyxl` - For creating and writing data to Excel workbooks.
 
 These dependencies will be automatically installed when you install feather_extract using pip.
 
