@@ -19,7 +19,7 @@ To extract text from a PDF document, use the `extract_text_from_document` functi
 
 This function uses the Azure Form Recognizer service to extract text from the document. You'll need to provide your Azure Form Recognizer API key and endpoint when prompted.
 
-*Formatting Extracted Text*
+### Formatting Extracted Text
 
 The format_extracted_text function takes the extracted text and formats it into a list of rows, each containing an item, quantity, and bar designation:
 `from feather_extract import format_extracted_text`
@@ -37,7 +37,7 @@ To save the formatted data to an Excel workbook, use the save_to_excel function:
 
 This function creates a new Excel workbook, writes the headers and formatted data rows to the active worksheet, and saves the workbook to the specified file name ('output.xlsx' in this example).
 
-*Dependencies*
+### Dependencies
 
 feather_extract relies on the following dependencies:
 
@@ -46,7 +46,7 @@ openpyxl: For creating and writing data to Excel workbooks.
 
 These dependencies will be automatically installed when you install feather_extract using pip.
 
-*Contributing*
+### Contributing
 Contributions to feather_extract are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository.
 To contribute code changes, follow these steps:
 
