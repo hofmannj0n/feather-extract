@@ -45,7 +45,7 @@ This function creates a new Excel workbook, writes the headers and formatted dat
 
 `openpyxl` - For creating and writing data to Excel workbooks.
 
-These dependencies will be automatically installed when you install feather_extract using pip.
+These dependencies will be automatically installed when you install feather-extract using pip.
 
 ## Contributing
 Contributions to feather_extract are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository.
