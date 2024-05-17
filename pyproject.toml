@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "feather_extract"
+version = "0.1.15"
+description = "A package for extracting handwritten data from PDF documents, and returning an Excel workbook output."
+readme = "README.md"
+authors = [
+    { name = "Jonathan Hofmann", email = "awsjonathan99@gmail.com" }
+]
+dependencies = [
+    "azure-ai-formrecognizer==3.3.3",
+    "openpyxl==3.1.2"
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+license = { text = "MIT" }
+urls = { "Homepage" = "https://www.featherdata.io/" }
+
+[tool.setuptools.package-data]
+"feather_extract" = ["data/*.pdf"]
+
+
+
+
+
+
